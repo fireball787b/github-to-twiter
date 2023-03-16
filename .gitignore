@@ -22,3 +22,4 @@ build/
 # Miscellaneous
 *.bak
 *.tmp
+*.DS_Store
