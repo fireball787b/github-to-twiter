@@ -20,9 +20,9 @@ pip3 install -r requirements.txt
 
 # Setup
 
-1. Create a .env file in the env directory of the project:
+1. Create a env folder and .env file in the root directory of the project:
 ```sh
-cd env && touch .env && cd ..
+mkdir env && cd env && touch .env && cd ..
 ```
 
 2. Add the necessary environment variables to the .env file:
