@@ -7,7 +7,7 @@ import tweepy
 
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv('env/.env')
 github_owner = os.getenv("GITHUB_OWNER")
 github_repository = os.getenv("GITHUB_REPOSITORY")
 github_personal_token = os.getenv("GITHUB_PERSONAL_TOKEN")
